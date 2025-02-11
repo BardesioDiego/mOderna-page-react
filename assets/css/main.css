@@ -231,7 +231,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #008374;
+  --background-color: #000000;
   --heading-color: #ffffff;
   color: var(--default-color);
   transition: all 0.5s;
@@ -240,7 +240,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: color-mix(in srgb, var(--accent-color) 90%, black 10%);
+  background-color: #af57b3;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -926,31 +926,11 @@ section,
   border-radius: 50px;
   transition: 0.3s;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: #af57b3;
 }
 
 .hero .btn-get-started:hover {
   border-color: color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  font-weight: 600;
-  color: var(--default-color);
-}
-
-.hero .btn-watch-video i {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover i {
-  color: var(--default-color);
 }
 
 .web-uruguay{
@@ -990,7 +970,7 @@ section,
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: var(--background-color);
+  background: linear-gradient(135deg, #83309b, #af57b3);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
