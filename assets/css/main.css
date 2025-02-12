@@ -1132,7 +1132,7 @@ section,
 
 .services .service-item:hover h3 {
   border-color: color-mix(in srgb, #af57b3, transparent 10%);
-  color: var(--heading-color);
+  color: #af57b3;
 }
 
 .services .service-item:hover .readmore {
