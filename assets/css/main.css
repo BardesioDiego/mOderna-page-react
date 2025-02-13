@@ -836,16 +836,10 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #000000;
   padding: 60px 0;
   scroll-margin-top: 112px;
   overflow: clip;
-  background-image: url('/assets/img/fondo_web.png'); /* Ruta correcta */
-  background-size: cover; /* Cubre toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: repeat; /* Evita repeticiones */
-  padding: 60px 0; /* Mantiene espacio arriba y abajo */
-  color: white; /* Ajusta el color del texto si es necesario */
 }
 
 @media (max-width: 1199px) {
@@ -894,6 +888,15 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero{
+  background-image: url('/assets/img/foto_inicio_moderna_diseño_paginas_web_uruguay.png'); /* Ruta correcta */
+  background-size: cover; /* Cubre toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  padding: 60px 0; /* Mantiene espacio arriba y abajo */
+  color: white; /* Ajusta el color del texto si es necesario */
+  padding: 140px 0 0 0;
+}
 .hero {
   width: 100%;
   position: relative;
@@ -968,7 +971,7 @@ section,
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: var(--default-color);
+    background-color: #000000;
     border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   }
 }
@@ -1079,6 +1082,14 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+#services{
+  background-image: url('/assets/img/foto_nosotros_moderna_diseño_paginas_web_uruguay\ \(1349\ x\ 348\ px\)\ \(1349\ x\ 972\ px\).png'); /* Ruta correcta */
+  background-size: cover; /* Cubre toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  padding: 60px 0; /* Mantiene espacio arriba y abajo */
+  color: white; /* Ajusta el color del texto si es necesario */
+}
 .services .service-item {
   background-color: #0f1819;
   padding: 40px;
@@ -1261,7 +1272,6 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-
 .portfolio .portfolio-filters {
   padding: 0 0 20px 0;
   margin: 0 auto;
@@ -1350,7 +1360,14 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
-
+#team{
+  background-image: url('/assets/img/foto_team_moderna_diseño_paginas_web_uruguay.png'); /* Ruta correcta */
+  background-size: cover; /* Cubre toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  padding: 60px 0; /* Mantiene espacio arriba y abajo */
+  color: white; /* Ajusta el color del texto si es necesario */
+}
 .team .member {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
@@ -1554,6 +1571,14 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+#contact{
+  background-image: url('/assets/img/foto_contato_moderna_diseño_paginas_web_uruguay.png'); /* Ruta correcta */
+  background-size: cover; /* Cubre toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  padding: 60px 0; /* Mantiene espacio arriba y abajo */
+  color: white; /* Ajusta el color del texto si es necesario */
+}
 .contact .info-container {
   background-color: var(--accent-color);
   height: 100%;
