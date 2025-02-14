@@ -1904,11 +1904,11 @@ section,
 /** wpp link **/
 .float{
   position:fixed;
-  width: 60px;
-  height: 60px;
-  background-color: #25d366;
-  bottom: 40px;
-  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #83309b;
+  bottom: 5px;
+  left: 2px;
   color: #fff;
   border-radius: 50%;
   text-align: center;
@@ -1916,7 +1916,7 @@ section,
   z-index: 999;
 }
 .boton-wpp{
-  font-size: 54px;
+  font-size: 25px;
 }
 .float:hover{
   background-color: #27e76e;
