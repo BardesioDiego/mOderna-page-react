@@ -921,7 +921,7 @@ section,
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: #ffffff;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1135,7 +1135,7 @@ section,
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  border-bottom: 2px solid #ffffff;
   transition: 0.3s;
 }
 
