@@ -192,3 +192,43 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+ document.addEventListener("DOMContentLoaded", function () {
+  const langBtn = document.getElementById("langBtn");
+  const langDropdown = document.getElementById("langDropdown");
+  const langBtnFlag = document.getElementById("langBtnFlag");
+
+  // ✅ Toggle del menú de idiomas
+  langBtn.addEventListener("click", function (e) {
+    e.stopPropagation();
+
+    const isOpen = langDropdown.style.display === "block";
+    langDropdown.style.display = isOpen ? "none" : "block";
+
+    langBtn.setAttribute("aria-expanded", !isOpen);
+  });
+
+  // ✅ Cambiar idioma
+  document.querySelectorAll(".lang-option").forEach(option => {
+    option.addEventListener("click", function () {
+      const lang = this.dataset.lang;
+      const href = this.dataset.href;
+      const flagImg = this.querySelector("img").src;
+
+      // Cambiar icono del botón
+      langBtnFlag.src = flagImg;
+
+      // Cerrar menú
+      langDropdown.style.display = "none";
+
+      // Redirigir
+      window.location.href = href;
+    });
+  });
+
+  // ✅ Cerrar dropdown al hacer clic afuera
+  document.addEventListener("click", function () {
+    langDropdown.style.display = "none";
+    langBtn.setAttribute("aria-expanded", false);
+  });
+});
