@@ -1557,6 +1557,7 @@ section,
   color: var(--contrast-color);
 }
 
+
 .pricing .featured {
   z-index: 10;
   border: 3px solid #af57b3;
@@ -1920,4 +1921,20 @@ section,
 }
 .float:hover{
   background-color: #27e76e;
+}
+
+.label-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a8e6a1; /* Verde clarito */
+  color: #065f08; /* Verde oscuro para contraste */
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  letter-spacing: 1px;
 }
